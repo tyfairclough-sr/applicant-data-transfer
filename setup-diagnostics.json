@@ -1,0 +1,29 @@
+{
+  "lastUpdated": "2026-04-07T12:33:44Z",
+  "user": {
+    "name": "Bojarowicz, Anna Maria",
+    "login": "I578626"
+  },
+  "setupPhase": "complete",
+  "checks": {
+    "cursor": {
+      "installed": true,
+      "path": "/Applications/Cursor.app",
+      "checkedAt": "2026-04-07T12:33:43Z"
+    },
+    "node": {
+      "installed": true,
+      "version": "24.14.1",
+      "meetsMinimum": true,
+      "checkedAt": "2026-04-07T12:33:43Z"
+    }
+  },
+  "setup": {
+    "mcpConfigured": {
+      "success": true,
+      "at": "2026-04-07T12:33:43Z",
+      "mode": "http",
+      "configPath": "/Users/I578626/.cursor/mcp.json"
+    }
+  }
+}
