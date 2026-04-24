@@ -81,6 +81,7 @@ Collected from building prototypes in this workspace. Updated as new patterns ar
 - When a settings page has nested groups (e.g. "Screening questions" → Default / Job specific / DEI), persist the parent toggle and the sub-state separately (e.g. `dataItems['data-screening']` + `screening: { default, jobSpecific, dei }`).
 - In the consuming dialog, only render a sub-row when the parent toggle is on, then map sub-keys to user-facing labels ("Preconfigured screening questions responses", "Job specific screening questions"). Some sub-options can be intentionally hidden in the destination view (e.g. DEI) — keep that mapping in one place.
 - Restore on load: the settings page should also `restoreAdminSettings()` from localStorage on page load so the user sees their last-saved state when navigating back.
+- When two sibling expandable rows share the same display logic (e.g. Preconfigured + Job specific screening questions, both showing "matching" or "all + grouped" lists based on `copyBehaviour`), extract a generic builder (`buildQuestionsSub(pool, copyBehaviour, labels)`) that takes the pool and per-row title strings — keeps the two builders one-liners and prevents copy-paste drift.
 
 ## Topbar avatar menu
 

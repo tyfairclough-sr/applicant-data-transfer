@@ -29,3 +29,4 @@
 {"timestamp":"2026-04-23T14:25:01Z","type":"prototype_modified","data":{"name":"applicant-data-transfer","changes":"Persist screening copy-behaviour radio (matching|all) so dialog can render correct list"}}
 {"timestamp":"2026-04-23T14:35:00Z","type":"prototype_modified","data":{"name":"applicant-list","changes":"ADT dialog max-height capped at 870px; dialog body scrolls so footer always stays visible when step 2 rows are expanded"}}
 {"timestamp":"2026-04-23T14:45:00Z","type":"prototype_modified","data":{"name":"applicant-list","changes":"Show confirmation toast after Add applicant: 'The process of adding [applicant] to [job] has begun. You will be updated via Notification Bell as soon as it is completed.' Auto-dismisses after 6s, also has manual close"}}
+{"timestamp":"2026-04-23T14:01:07Z","type":"export","data":{"prototype":"applicant-data-transfer","destination":"~/Desktop/applicant-data-transfer.zip"}}
